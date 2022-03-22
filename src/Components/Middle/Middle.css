@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: 'GraphikEL';
+    src: url('../../assets/Graphik-Extralight.otf');
+}
+
+
+.containerN{
+    height: 900px;
+    width: 100%;
+    background-color: rgb(39,49,56);
+    padding: 60px;
+    
+    background-size: contain;
+}
+
+.titulosMedioN{
+    font-family: 'GraphikEL';
+    font-size: 24px;
+    color: rgb(4,192,1);
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre;
+}
+
+.parrafoMedioN{
+    font-size: 16px;
+    letter-spacing: -1px;
+    color:rgb(155,155,155)
+}
+
+.medioN{
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 180px;
+
+}
+
+.medio1N{
+    background-color:rgb(59,65,72);
+    padding: 40px;
+}
+
+.medio2N{
+    background-color: rgb(22,28,33);
+    padding: 40px;
+
+}
+
+.medio3N{
+    background-color: rgb(32,42,55);
+    padding: 40px;
+
+}
+
+.titulo1N{
+    text-align: center;
+    margin-top: 50px;
+    color: #FFFF;
+    font-family: 'Graphik';
+    font-size: 42px;
+    letter-spacing: -2px;
+}
+
+.texto1N{
+    text-align: center;  
+    font-family: 'Graphik';
+    color:rgb(155,155,155);
+    margin-top: 15px;
+}
+
+.titulo2N{
+    text-align: center;
+    margin-top: 50px;
+    color: #FFFF;
+    font-family: 'Graphik';
+    font-size: 42px;
+    letter-spacing: -2px;
+}
+
+.texto2N{
+    text-align: center;  
+    font-family: 'Graphik';
+    color:rgb(155,155,155);
+    margin-top: 15px;
+}
+
+.centrado3N{
+    margin-top: 50px;
+}

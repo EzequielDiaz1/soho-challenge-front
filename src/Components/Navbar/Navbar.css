@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url('../../assets/GraphikMedium.otf');
+}
+
+
+.contenedorNavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    color: white;
+}
+
+a{
+    margin: 20px;
+    font-family: 'Graphik';
+    color:grey !important;
+}
+a:hover{
+    cursor: pointer;
+    color:white !important;
+}
+
+a.active{
+    border-bottom: 3px solid rgb(2,179,0);
+    color:white !important;
+}
+

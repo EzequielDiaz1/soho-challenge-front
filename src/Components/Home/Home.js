@@ -1,21 +1,26 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React from "react";
-import img from './../../assets/joe-straker-t0o5YSQZ_VQ-unsplash.jpg'
+import Navbar from "../Navbar/Navbar";
+import imgTransm from "../../assets/logoTransm.png"
+import "./Home.css";
+import "tailwindcss/tailwind.css";
 
 const Home = () => {
   return (
-    <div>
-      <div className="cover-container">
+      <div className="contenedor">
+        <div className="texto-encima"><Navbar/></div>
+        <div className="centrado">Nos especializamos en</div>
+        <div className="centrado2">interfaces digitales que los usuarios aman</div>
+        <button className="centrado3">HABLEMOS DE TU PROYECTO</button>
+        <div className="texto-debajo">
+          <img className="imagenTransm" src={imgTransm}/>
+          <p><strong>EN DIRECTO</strong> - SOHO está presente en el <strong>DIGITALBANK MONTEVIDEO</strong>. "Experiencia de Usuario" por Alvaro Añón (SEO de Soho)</p>
+          <div style={{display:'flex'}}>
+          <button className="buttonTransm">VER EVENTO</button>
+          <button className="buttonEvents">PRÓXIMOS EVENTOS</button>
 
-          <img
-            className="video"
-            src={img}
-          />
-          <h1>Ezequiel Diaz</h1>
-          <p>Full Stack Developer 💻🌎</p>
-   
+          </div>
+        </div>
       </div>
-    </div>
   );
 };
 

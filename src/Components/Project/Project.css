@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url('../../assets/GraphikLight.otf'); 
+}
+
+.padre{
+    width: 100%;
+    font-family: 'Graphik';
+}
+
+.logoTitulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.titulo{
+    color: white;
+    font-family: 'Graphik';
+    font-size: 30px;
+}
+
+.logoTitulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Graphik';
+}
+
+.fotoDescr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.descripcion{
+    color:rgb(235,235,235);
+    font-family: 'Graphik';
+    padding: 20px;
+}

@@ -2,6 +2,7 @@ import "./Project.css";
 import { useState, useEffect } from "react";
 
 const Project = ({ props }) => {
+  console.log('PROPSSS:', props)
   const [blackNecess, setBlackNecess] = useState(false);
   const {
     tituloProyecto,
